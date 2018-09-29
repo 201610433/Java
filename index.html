@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1 id= "Hello", style="color: dodgerblue">Hello everyone</h1>
+<p id="myphone", style="color:Tomato;">4347 is my back number. 21 is my age.</p>
+
+<h2 id="Nice", style="color: aquamarine">Nice to meet you</h2>
+<p2 id="myID", style="color: violet">nine multiply six?</p2>
+
+<p2 id="demo"></p2>
+
+<script>
+
+var number1=4347;
+var number2= number1 * 2;
+var number3= number2 + 5;
+var number4= number3 * 50;
+var number5= number4 + 1769;
+var result= number5 - 1998;
+
+var titleElement= document.getElementById("Hello");
+titleElement.innerHTML= "The result is "+result+".";
+
+function myFunction(n1, n2) {
+    return n1 * n2;
+}
+document.getElementById("demo").innerHTML = myFunction(9, 6);
+
+</script>
+
+</body>
+</html>
